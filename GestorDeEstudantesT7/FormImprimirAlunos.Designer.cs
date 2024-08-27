@@ -82,6 +82,7 @@
             this.groupBox1.Size = new System.Drawing.Size(920, 106);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // buttonFiltrar
             // 
@@ -95,6 +96,7 @@
             this.buttonFiltrar.TabIndex = 4;
             this.buttonFiltrar.Text = "Filtrar";
             this.buttonFiltrar.UseVisualStyleBackColor = false;
+            this.buttonFiltrar.Click += new System.EventHandler(this.buttonFiltrar_Click);
             // 
             // groupBox2
             // 
